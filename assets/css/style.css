@@ -1,5 +1,6 @@
-.div1 {
-    width: 300px;
-    height: 100px;
-    border: 1px solid blue; 
-  }
+.my-name {
+  width: 50px;
+  height: 25px;
+  background-color: blue;
+
+}
