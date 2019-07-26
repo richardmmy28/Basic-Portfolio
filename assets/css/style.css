@@ -80,3 +80,58 @@ li a {
   margin-top: 25px;
   padding: 20px;
 }
+
+h3 {
+ font-size: 25px;
+ color: lightseagreen;
+}
+
+.line {
+  height: 1px;
+  width: 80%;
+  margin-right: 5%;
+  margin-left: 10%;
+  background-color: lightgrey;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: lightseagreen;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.container2 {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+
+.column {
+  margin-left: 10%;
+  width: 50%;
+  margin-top: 6px;
+  
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
