@@ -16,15 +16,17 @@
 }
 
 .name {
+  margin-left: 225px;
   width: 200px;
   background-color: lightseagreen;
+  color: white;
+  text-align: center;
 }
 
 
 .text {
   width: 300px;
   margin-left: 25px;
-  color: white;
 }
 
 #main {
@@ -42,11 +44,13 @@
 .content {
   margin-left: 22%;
   margin-top: 107px;
-  margin-bottom: 11%;
+  margin-bottom: 6%;
   width: 681px;
   height: 68%;
   background-color: white;
 }
+
+
 
 
 .list {
@@ -120,7 +124,7 @@ h3 {
 
 .line {
   height: 1px;
-  width: 106%;
+  width: 80%;
   margin-right: 5%;
   margin-left: 10%;
   background-color: lightgrey;
@@ -148,14 +152,6 @@ input[type=submit] {
 }
 
 
-
-.container2 {
-  border-radius: 5px;
-  background-color: white;
-  padding: 10px;
-}
-
-
 .column {
   margin-left: 10%;
   width: 50%;
@@ -170,3 +166,35 @@ input[type=submit] {
     margin-top: 0;
   }
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
